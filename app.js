@@ -7,7 +7,7 @@ function roundType(number){
         return a+1
     }return a
 }
-console.log(roundType(12.3))
+console.log(roundType(12.3));
 
 
 
