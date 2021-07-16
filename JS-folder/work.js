@@ -1,16 +1,17 @@
-    const sample = {
+    const sample = [
+        {
         a: 1,
         b: 2,
         c: 3
-    };
-
-    // var
-    let sum = 0;
-
-    // object iteration
-    for (key in sample) {
-        //sum
-        sum += (sample[key]);
+    },
+    {
+        a: 1,
+        b: 2,
+        c: 3
     }
-    // result
+];
+    let sum = 0;
+    sample.forEach((value,index)=>{
+        sum+=value
+    })
     console.log(sum);

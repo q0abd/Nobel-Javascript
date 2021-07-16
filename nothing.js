@@ -41,6 +41,7 @@ function slaryFunc(){
     console.log(count);
 }
 
+slaryFunc()
 // function slaryFunc(){
 //     arr.reduce((value)=>{
 //         if(value.age>15){
@@ -49,7 +50,6 @@ function slaryFunc(){
 //     },0)
 //     console.log(arr);
 // }
-slaryFunc()
 
 // const array1 = [1, 2, 3, 4];
 // const reducer = (accumulator, currentValue) => accumulator + currentValue;
